@@ -7,5 +7,5 @@
     TRAINER: Hari
   tasks:
   - name: print course information
-    ansible.bulitin.debug:
-     msg: "Hello {{ COURSE }}, Course Duration: {{ DURATION }}, Trainer is {{ TRAINER }}"
+    ansible.builtin.ping:
+      msg: "Hello {{ COURSE }}, Course Duration: {{ DURATION }}, Trainer is {{ TRAINER }}"
