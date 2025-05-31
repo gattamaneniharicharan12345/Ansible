@@ -1,5 +1,5 @@
 - name: playing variables
-  hosts: lacal
+  hosts: local
   connection: local
   vars:
     COURSE: ansible
