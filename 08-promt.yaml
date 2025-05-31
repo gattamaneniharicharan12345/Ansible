@@ -13,7 +13,7 @@
   tasks:
   - name: priniting user infformation
     ansible.builtin.debug:
-    msg: "hello enter username: {{ username }}, password enter: {{ password }}"  
+      msg: "hello enter username: {{ username }}, password enter: {{ password }}"  
 
 
     
