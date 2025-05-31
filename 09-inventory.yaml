@@ -1,4 +1,4 @@
-- name: variables sfrom files
+- name: variables from inventory
   hosts: local
   connection: local
   tasks:
