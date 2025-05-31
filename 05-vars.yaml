@@ -1,0 +1,11 @@
+- name: playing variables
+  hosts: laocl
+  connection: local
+  vars:
+    COURSE: ansible
+    DURATION: 5HRS
+    TRAINER: Hari
+  tasks:
+  - name: print course information
+    ansible.bulitin.debug:
+     msg: "Hello {{ COURSE }}, Course Duration: {{ DURATION }}, Trainer is {{ TRAINER }}"
